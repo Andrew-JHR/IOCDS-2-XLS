@@ -1,0 +1,2491 @@
+         ID    MSG1='IODF23',MSG2='SYS1.IODF23 - 2018-05-28 21:04',    *
+               SYSTEM=(2097,1),                                        *
+               TOK=('Z10',0080000CE14E2097210443390118148F00000000,0000*
+               0000,'18-05-28','21:04:43','SYS1','IODF23')
+         RESOURCE PARTITION=((CSS(0),(BCYBERP,9),(COSMOSP,5),(EVABKLC,6*
+               ),(EVABKLI,4),(EVABKLO,7),(MVSCMC,2),(PFM1,B),(TAIVM1,A)*
+               ,(UITC,1),(USER2,E),(USER3,C),(ZVMCFIA,3),(ZVMCSDL,D),(Z*
+               VMG7,8),(*,F)),(CSS(1),(*,1),(*,2),(*,3),(*,4),(*,5),(*,*
+               6),(*,7),(*,8),(*,9),(*,A),(*,B),(*,C),(*,D),(*,E),(*,F)*
+               ),(CSS(2),(*,1),(*,2),(*,3),(*,4),(*,5),(*,6),(*,7),(*,8*
+               ),(*,9),(*,A),(*,B),(*,C),(*,D),(*,E),(*,F)),(CSS(3),(*,*
+               1),(*,2),(*,3),(*,4),(*,5),(*,6),(*,7),(*,8),(*,9),(*,A)*
+               ,(*,B),(*,C),(*,D),(*,E),(*,F)))
+         CHPID PATH=(CSS(0),00),SHARED,                                *
+               PARTITION=((PFM1,USER3,ZVMCSDL,ZVMG7),(=)),PCHID=5E0,   *
+               TYPE=CNC
+         CHPID PATH=(CSS(0),01),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,UITC,USER3,ZVMCFIA),(*
+               =)),SWITCH=01,PCHID=5E1,TYPE=CNC
+         CHPID PATH=(CSS(0),02),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),SWITCH=01,PCHID=5E2,      *
+               TYPE=CNC
+         CHPID PATH=(CSS(0),03),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),SWITCH=01,PCHID=5E3,TYPE=CNC
+         CHPID PATH=(CSS(0),04),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),SWITCH=02,PCHID=5E4,TYPE=CNC
+         CHPID PATH=(CSS(0),05),SHARED,                                *
+               PARTITION=((PFM1,USER3,ZVMCSDL,ZVMG7),(=)),PCHID=5E5,   *
+               TYPE=CNC
+         CHPID PATH=(CSS(0),06),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),SWITCH=02,PCHID=5E6,      *
+               TYPE=CNC
+         CHPID PATH=(CSS(0),07),SHARED,                                *
+               PARTITION=((PFM1,USER3,ZVMCSDL,ZVMG7),(=)),PCHID=5E7,   *
+               TYPE=CNC
+         CHPID PATH=(CSS(0),08),PARTITION=((UITC),(ZVMCFIA),REC),      *
+               SWITCH=01,PCHID=5E8,TYPE=CVC
+         CHPID PATH=(CSS(0),09),SHARED,                                *
+               PARTITION=((PFM1,USER3,ZVMCSDL,ZVMG7),(=)),PCHID=565,   *
+               TYPE=CNC
+         CHPID PATH=(CSS(0),0A),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),SWITCH=01,PCHID=560,TYPE=CNC
+         CHPID PATH=(CSS(0),0B),SHARED,PARTITION=((COSMOSP),(ZVMCFIA)),*
+               PCHID=561,TYPE=CNC
+         CHPID PATH=(CSS(0),0C),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,UITC,USER3,ZVMCFIA),(*
+               =)),SWITCH=01,PCHID=562,TYPE=CNC
+         CHPID PATH=(CSS(0),0D),SHARED,                                *
+               PARTITION=((PFM1,USER3,ZVMCSDL,ZVMG7),(=)),PCHID=563,   *
+               TYPE=CNC
+         CHPID PATH=(CSS(0),0E),SHARED,                                *
+               PARTITION=((PFM1,USER3,ZVMCSDL,ZVMG7),(=)),PCHID=564,   *
+               TYPE=CNC
+         CHPID PATH=(CSS(0),0F),SHARED,PARTITION=((COSMOSP),(=)),      *
+               PCHID=5E9,TYPE=CNC
+         CHPID PATH=(CSS(0),10),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),SWITCH=02,PCHID=566,TYPE=CNC
+         CHPID PATH=(CSS(0),11),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),SWITCH=02,PCHID=567,TYPE=CNC
+         CHPID PATH=(CSS(0),12),PARTITION=((BCYBERP),(=),REC),         *
+               SWITCH=02,PCHID=568,TYPE=CVC
+         CHPID PATH=(CSS(0),13),PARTITION=((COSMOSP),(=),REC),         *
+               PCHID=569,TYPE=CVC
+         CHPID PATH=(CSS(0),40),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,PFM1,TAIVM1,UITC,USER2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(*
+               =)),SWITCH=03,PCHID=470,TYPE=FC
+         CHPID PATH=(CSS(0),41),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=230,TYPE=FC
+         CHPID PATH=(CSS(0),42),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=472,TYPE=FC
+         CHPID PATH=(CSS(0),43),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=473,TYPE=FC
+         CHPID PATH=(CSS(0),44),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=460,TYPE=FC
+         CHPID PATH=(CSS(0),45),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=461,TYPE=FC
+         CHPID PATH=(CSS(0),46),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=462,TYPE=FC
+         CHPID PATH=(CSS(0),47),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=463,TYPE=FC
+         CHPID PATH=(CSS(0),48),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,PFM1,TAIVM1,UITC,USER2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(*
+               =)),SWITCH=03,PCHID=440,TYPE=FC
+         CHPID PATH=(CSS(0),49),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=441,TYPE=FC
+         CHPID PATH=(CSS(0),4A),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=442,TYPE=FC
+         CHPID PATH=(CSS(0),4B),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=443,TYPE=FC
+         CHPID PATH=(CSS(0),4C),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,PFM1,TAIVM1,UITC,USER2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(*
+               =)),PCHID=3F0,TYPE=FC
+         CHPID PATH=(CSS(0),4D),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3F1,TYPE=FC
+         CHPID PATH=(CSS(0),4E),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,TAIVM1,UITC,USER3,ZVMCFIA),(=)),SWITCH=03,PCHID=3F2, *
+               TYPE=FC
+         CHPID PATH=(CSS(0),4F),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3F3,TYPE=FC
+         CHPID PATH=(CSS(0),50),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,TAIVM1,UITC,USER3,ZVMCFIA),(=)),PCHID=3E0,TYPE=FC
+         CHPID PATH=(CSS(0),51),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3E1,TYPE=FC
+         CHPID PATH=(CSS(0),52),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3E2,TYPE=FC
+         CHPID PATH=(CSS(0),53),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3E3,TYPE=FC
+         CHPID PATH=(CSS(0),54),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3D0,TYPE=FC
+         CHPID PATH=(CSS(0),55),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3D1,TYPE=FC
+         CHPID PATH=(CSS(0),56),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3D2,TYPE=FC
+         CHPID PATH=(CSS(0),57),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3D3,TYPE=FC
+         CHPID PATH=(CSS(0),58),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3C0,TYPE=FC
+         CHPID PATH=(CSS(0),59),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3C1,TYPE=FC
+         CHPID PATH=(CSS(0),5A),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3C2,TYPE=FC
+         CHPID PATH=(CSS(0),5B),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3C3,TYPE=FC
+         CHPID PATH=(CSS(0),5C),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3B0,TYPE=FC
+         CHPID PATH=(CSS(0),5D),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3B1,TYPE=FC
+         CHPID PATH=(CSS(0),5E),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3B2,TYPE=FC
+         CHPID PATH=(CSS(0),5F),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3B3,TYPE=FC
+         CHPID PATH=(CSS(0),60),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3A0,TYPE=FC
+         CHPID PATH=(CSS(0),61),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3A1,TYPE=FC
+         CHPID PATH=(CSS(0),62),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3A2,TYPE=FC
+         CHPID PATH=(CSS(0),63),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=3A3,TYPE=FC
+         CHPID PATH=(CSS(0),64),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=370,TYPE=FC
+         CHPID PATH=(CSS(0),65),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=371,TYPE=FC
+         CHPID PATH=(CSS(0),66),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=372,TYPE=FC
+         CHPID PATH=(CSS(0),67),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=373,TYPE=FC
+         CHPID PATH=(CSS(0),68),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=360,TYPE=FC
+         CHPID PATH=(CSS(0),69),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=361,TYPE=FC
+         CHPID PATH=(CSS(0),6A),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=362,TYPE=FC
+         CHPID PATH=(CSS(0),6B),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=363,TYPE=FC
+         CHPID PATH=(CSS(0),6C),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=350,TYPE=FC
+         CHPID PATH=(CSS(0),6D),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=351,TYPE=FC
+         CHPID PATH=(CSS(0),6E),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=352,TYPE=FC
+         CHPID PATH=(CSS(0),6F),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=353,TYPE=FC
+         CHPID PATH=(CSS(0),70),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,PFM1,TAIVM1,UITC,USER2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(*
+               =)),SWITCH=03,PCHID=670,TYPE=FC
+         CHPID PATH=(CSS(0),71),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=270,TYPE=FC
+         CHPID PATH=(CSS(0),72),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=672,TYPE=FC
+         CHPID PATH=(CSS(0),73),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=673,TYPE=FC
+         CHPID PATH=(CSS(0),74),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=650,TYPE=FC
+         CHPID PATH=(CSS(0),75),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=651,TYPE=FC
+         CHPID PATH=(CSS(0),76),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=652,TYPE=FC
+         CHPID PATH=(CSS(0),77),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=653,TYPE=FC
+         CHPID PATH=(CSS(0),78),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,PFM1,TAIVM1,UITC,USER2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(*
+               =)),SWITCH=03,PCHID=640,TYPE=FC
+         CHPID PATH=(CSS(0),79),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=641,TYPE=FC
+         CHPID PATH=(CSS(0),7A),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=642,TYPE=FC
+         CHPID PATH=(CSS(0),7B),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=643,TYPE=FC
+         CHPID PATH=(CSS(0),7C),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,PFM1,TAIVM1,UITC,USER2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(*
+               =)),PCHID=630,TYPE=FC
+         CHPID PATH=(CSS(0),7D),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=631,TYPE=FC
+         CHPID PATH=(CSS(0),7E),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=632,TYPE=FC
+         CHPID PATH=(CSS(0),7F),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=633,TYPE=FC
+         CHPID PATH=(CSS(0),80),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,TAIVM1,UITC,USER3,ZVMCFIA),(=)),PCHID=620,TYPE=FC
+         CHPID PATH=(CSS(0),81),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=621,TYPE=FC
+         CHPID PATH=(CSS(0),82),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=622,TYPE=FC
+         CHPID PATH=(CSS(0),83),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=623,TYPE=FC
+         CHPID PATH=(CSS(0),84),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=5F0,TYPE=FC
+         CHPID PATH=(CSS(0),85),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=5F1,TYPE=FC
+         CHPID PATH=(CSS(0),86),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=5F2,TYPE=FC
+         CHPID PATH=(CSS(0),87),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=5F3,TYPE=FC
+         CHPID PATH=(CSS(0),88),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=5D0,TYPE=FC
+         CHPID PATH=(CSS(0),89),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=5D1,TYPE=FC
+         CHPID PATH=(CSS(0),8A),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=5D2,TYPE=FC
+         CHPID PATH=(CSS(0),8B),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=5D3,TYPE=FC
+         CHPID PATH=(CSS(0),8C),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=5C0,TYPE=FC
+         CHPID PATH=(CSS(0),8D),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=5C1,TYPE=FC
+         CHPID PATH=(CSS(0),8E),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=5C2,TYPE=FC
+         CHPID PATH=(CSS(0),8F),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=5C3,TYPE=FC
+         CHPID PATH=(CSS(0),90),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=5A0,TYPE=FC
+         CHPID PATH=(CSS(0),91),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=5A1,TYPE=FC
+         CHPID PATH=(CSS(0),92),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=5A2,TYPE=FC
+         CHPID PATH=(CSS(0),93),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=5A3,TYPE=FC
+         CHPID PATH=(CSS(0),94),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=570,TYPE=FC
+         CHPID PATH=(CSS(0),95),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=571,TYPE=FC
+         CHPID PATH=(CSS(0),96),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=572,TYPE=FC
+         CHPID PATH=(CSS(0),97),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=573,TYPE=FC
+         CHPID PATH=(CSS(0),98),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=550,TYPE=FC
+         CHPID PATH=(CSS(0),99),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=551,TYPE=FC
+         CHPID PATH=(CSS(0),9A),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=552,TYPE=FC
+         CHPID PATH=(CSS(0),9B),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=553,TYPE=FC
+         CHPID PATH=(CSS(0),9C),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=540,TYPE=FC
+         CHPID PATH=(CSS(0),9D),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=541,TYPE=FC
+         CHPID PATH=(CSS(0),9E),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=542,TYPE=FC
+         CHPID PATH=(CSS(0),9F),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=543,TYPE=FC
+         CHPID PATH=(CSS(0),A0),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,TAIVM1,UITC,USER3,ZVMCFIA),(=)),PCHID=331,TYPE=OSC
+         CHPID PATH=(CSS(0),A1),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,TAIVM1,UITC,USER3,ZVMCFIA),(=)),PCHID=121,TYPE=OSC
+         CHPID PATH=(CSS(0),A2),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,TAIVM1,UITC,USER3,ZVMCFIA),(=)),PCHID=1B0,TYPE=OSC
+         CHPID PATH=(CSS(0),A3),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=1B1,TYPE=OSE
+         CHPID PATH=(CSS(0),A4),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=200,TYPE=OSD
+         CHPID PATH=(CSS(0),A5),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,TAIVM1,UITC,USER3,ZVMCFIA),(=)),PCHID=201,TYPE=OSD
+         CHPID PATH=(CSS(0),A6),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,TAIVM1,UITC,USER3,ZVMCFIA),(=)),PCHID=501,TYPE=OSC
+         CHPID PATH=(CSS(0),A7),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,PFM1,TAIVM1,UITC,USER2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(*
+               =)),PCHID=221,TYPE=OSD
+         CHPID PATH=(CSS(0),A8),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=500,TYPE=OSD
+         CHPID PATH=(CSS(0),A9),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,PFM1,TAIVM1,UITC,USER2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(*
+               =)),PCHID=220,TYPE=OSD
+         CHPID PATH=(CSS(0),AA),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,PFM1,TAIVM1,UITC,USER2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(*
+               =)),PCHID=510,TYPE=OSD
+         CHPID PATH=(CSS(0),AB),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,PFM1,TAIVM1,UITC,USER2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(*
+               =)),PCHID=511,TYPE=OSD
+         CHPID PATH=(CSS(0),AC),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=580,TYPE=OSD
+         CHPID PATH=(CSS(0),AD),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=581,TYPE=OSE
+         CHPID PATH=(CSS(0),AE),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=600,TYPE=OSD
+         CHPID PATH=(CSS(0),AF),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=601,TYPE=OSD
+         CHPID PATH=(CSS(0),B0),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=330,TYPE=OSD
+         CHPID PATH=(CSS(0),B1),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=120,TYPE=OSD
+         CHPID PATH=(CSS(0),B2),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),PCHID=340,TYPE=OSD
+         CHPID PATH=(CSS(0),B3),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=341,TYPE=OSD
+         CHPID PATH=(CSS(0),B4),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,TAIVM1,UITC,USER3,ZVMCFIA),(=)),PCHID=390,TYPE=OSD
+         CHPID PATH=(CSS(0),B5),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,PFM1,TAIVM1,UITC,USER2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(*
+               =)),PCHID=391,TYPE=OSD
+         CHPID PATH=(CSS(0),B6),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,PFM1,TAIVM1,UITC,USER2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(*
+               =)),PCHID=420,TYPE=OSD
+         CHPID PATH=(CSS(0),B7),SHARED,                                *
+               PARTITION=((PFM1,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),CHPARM=02, *
+               PCHID=421,TYPE=OSD
+         CHPID PATH=(CSS(0),B8),SHARED,                                *
+               PARTITION=((PFM1,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=430, *
+               TYPE=OSC
+         CHPID PATH=(CSS(0),B9),SHARED,                                *
+               PARTITION=((PFM1,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),CHPARM=02, *
+               PCHID=431,TYPE=OSD
+         CHPID PATH=(CSS(0),C0),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=530,TYPE=FC
+         CHPID PATH=(CSS(0),C1),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=531,TYPE=FC
+         CHPID PATH=(CSS(0),C2),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=532,TYPE=FC
+         CHPID PATH=(CSS(0),C3),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=533,TYPE=FC
+         CHPID PATH=(CSS(0),C4),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,PFM1,TAIVM1,UITC,USER2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(*
+               =)),SWITCH=03,PCHID=520,TYPE=FC
+         CHPID PATH=(CSS(0),C5),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=521,TYPE=FC
+         CHPID PATH=(CSS(0),C6),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=522,TYPE=FC
+         CHPID PATH=(CSS(0),C7),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=523,TYPE=FC
+         CHPID PATH=(CSS(0),C8),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,TAIVM1,UITC,USER3,ZVM*
+               CFIA),(=)),SWITCH=03,PCHID=671,TYPE=FC
+         CHPID PATH=(CSS(0),C9),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,PFM1,TAIVM1,UITC,USER2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(*
+               =)),PCHID=271,TYPE=FC
+         CHPID PATH=(CSS(0),CA),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=272,TYPE=FC
+         CHPID PATH=(CSS(0),CB),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=273,TYPE=FC
+         CHPID PATH=(CSS(0),CC),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,TAIVM1,UITC,USER3,ZVMCFIA),(=)),PCHID=260,TYPE=FC
+         CHPID PATH=(CSS(0),CD),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,PFM1,TAIVM1,UITC,USER2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(*
+               =)),PCHID=261,TYPE=FC
+         CHPID PATH=(CSS(0),CE),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=262,TYPE=FC
+         CHPID PATH=(CSS(0),CF),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=263,TYPE=FC
+         CHPID PATH=(CSS(0),D0),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,EVABKLC,EVABKLI,EVABKLO,MVSC*
+               MC,PFM1,TAIVM1,UITC,USER2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(*
+               =)),SWITCH=03,PCHID=250,TYPE=FC
+         CHPID PATH=(CSS(0),D1),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=251,TYPE=FC
+         CHPID PATH=(CSS(0),D2),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=252,TYPE=FC
+         CHPID PATH=(CSS(0),D3),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=253,TYPE=FC
+         CHPID PATH=(CSS(0),D4),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=471,TYPE=FC
+         CHPID PATH=(CSS(0),D5),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=231,TYPE=FC
+         CHPID PATH=(CSS(0),D6),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=232,TYPE=FC
+         CHPID PATH=(CSS(0),D7),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),SWITCH=03,PCHID=233,*
+               TYPE=FC
+         CHPID PATH=(CSS(0),D8),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=1F0,TYPE=FC
+         CHPID PATH=(CSS(0),D9),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=1F1,TYPE=FC
+         CHPID PATH=(CSS(0),DA),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=1F2,TYPE=FC
+         CHPID PATH=(CSS(0),DB),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=1F3,TYPE=FC
+         CHPID PATH=(CSS(0),DC),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=1E0,TYPE=FC
+         CHPID PATH=(CSS(0),DD),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=1E1,TYPE=FC
+         CHPID PATH=(CSS(0),DE),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=1E2,TYPE=FC
+         CHPID PATH=(CSS(0),DF),SHARED,                                *
+               PARTITION=((BCYBERP,COSMOSP,MVSCMC,PFM1,TAIVM1,UITC,USER*
+               2,USER3,ZVMCFIA,ZVMCSDL,ZVMG7),(=)),PCHID=1E3,TYPE=FC
+         CNTLUNIT CUNUMBR=0001,PATH=((CSS(0),01)),UNITADD=((00,256)),  *
+               LINK=((CSS(0),FE)),UNIT=9032-5
+         IODEVICE ADDRESS=001,MODEL=5,UNITADD=00,CUNUMBR=(0001),       *
+               STADET=Y,UNIT=9032
+         CNTLUNIT CUNUMBR=0002,PATH=((CSS(0),04,06)),                  *
+               UNITADD=((00,001)),LINK=((CSS(0),FE,FE)),UNIT=9032-5
+         IODEVICE ADDRESS=002,MODEL=5,UNITADD=00,CUNUMBR=(0002),       *
+               STADET=Y,UNIT=9032
+         CNTLUNIT CUNUMBR=0003,PATH=((CSS(0),40,48,70,78,C8)),         *
+               UNITADD=((00,001)),                                     *
+               LINK=((CSS(0),03FE,03FE,03FE,03FE,03FE)),UNIT=2032
+         IODEVICE ADDRESS=003,UNITADD=00,CUNUMBR=(0003),STADET=Y,      *
+               UNIT=2032
+         CNTLUNIT CUNUMBR=001F,PATH=((CSS(0),4E)),UNITADD=((00,002)),  *
+               LINK=((CSS(0),034E)),CUADD=1,UNIT=FCTC
+         IODEVICE ADDRESS=1CA0,UNITADD=00,CUNUMBR=(001F),STADET=Y,     *
+               UNIT=FCTC
+         CNTLUNIT CUNUMBR=002F,PATH=((CSS(0),4E)),UNITADD=((00,002)),  *
+               LINK=((CSS(0),034E)),CUADD=2,UNIT=FCTC
+         IODEVICE ADDRESS=1CB0,UNITADD=00,CUNUMBR=(002F),STADET=Y,     *
+               UNIT=FCTC
+         CNTLUNIT CUNUMBR=003F,PATH=((CSS(0),4E)),UNITADD=((00,002)),  *
+               LINK=((CSS(0),034E)),CUADD=3,UNIT=FCTC
+         IODEVICE ADDRESS=1CC0,UNITADD=00,CUNUMBR=(003F),STADET=Y,     *
+               UNIT=FCTC
+         CNTLUNIT CUNUMBR=004F,PATH=((CSS(0),4E)),UNITADD=((00,016)),  *
+               LINK=((CSS(0),034E)),CUADD=4,UNIT=FCTC
+         IODEVICE ADDRESS=(1C40,016),UNITADD=00,CUNUMBR=(004F),        *
+               STADET=Y,PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO)),  *
+               UNIT=FCTC
+         CNTLUNIT CUNUMBR=005F,PATH=((CSS(0),4E)),UNITADD=((00,002)),  *
+               LINK=((CSS(0),034E)),CUADD=5,UNIT=FCTC
+         IODEVICE ADDRESS=1C50,UNITADD=00,CUNUMBR=(005F),STADET=Y,     *
+               UNIT=FCTC
+         CNTLUNIT CUNUMBR=006F,PATH=((CSS(0),4E)),UNITADD=((00,016)),  *
+               LINK=((CSS(0),034E)),CUADD=6,UNIT=FCTC
+         IODEVICE ADDRESS=(1C60,016),UNITADD=00,CUNUMBR=(006F),        *
+               STADET=Y,PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO)),  *
+               UNIT=FCTC
+         CNTLUNIT CUNUMBR=007F,PATH=((CSS(0),4E)),UNITADD=((00,016)),  *
+               LINK=((CSS(0),034E)),CUADD=7,UNIT=FCTC
+         IODEVICE ADDRESS=(1C70,016),UNITADD=00,CUNUMBR=(007F),        *
+               STADET=Y,PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO)),  *
+               UNIT=FCTC
+         CNTLUNIT CUNUMBR=008F,PATH=((CSS(0),4E)),UNITADD=((00,002)),  *
+               LINK=((CSS(0),034E)),CUADD=8,UNIT=FCTC
+         IODEVICE ADDRESS=1C80,UNITADD=00,CUNUMBR=(008F),STADET=Y,     *
+               UNIT=FCTC
+         CNTLUNIT CUNUMBR=009F,PATH=((CSS(0),4E)),UNITADD=((00,002)),  *
+               LINK=((CSS(0),034E)),CUADD=9,UNIT=FCTC
+         IODEVICE ADDRESS=1C90,UNITADD=00,CUNUMBR=(009F),STADET=Y,     *
+               UNIT=FCTC
+         CNTLUNIT CUNUMBR=00A0,PATH=((CSS(0),A0)),UNIT=OSC
+         IODEVICE ADDRESS=(0B0,016),MODEL=X,UNITADD=00,CUNUMBR=(00A0), *
+               UNIT=3270
+         CNTLUNIT CUNUMBR=00A1,PATH=((CSS(0),A1)),UNIT=OSC
+         IODEVICE ADDRESS=(10B0,016),MODEL=X,UNITADD=00,CUNUMBR=(00A1),*
+               UNIT=3270
+         CNTLUNIT CUNUMBR=00A2,PATH=((CSS(0),A2)),UNIT=OSC
+         IODEVICE ADDRESS=(10C0,016),MODEL=X,UNITADD=00,CUNUMBR=(00A2),*
+               UNIT=3270
+         CNTLUNIT CUNUMBR=00A3,PATH=((CSS(0),A3)),UNIT=OSA
+         IODEVICE ADDRESS=(F30,015),UNITADD=00,CUNUMBR=(00A3),UNIT=OSA
+         IODEVICE ADDRESS=F3F,UNITADD=FE,CUNUMBR=(00A3),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00A4,PATH=((CSS(0),A4)),UNIT=OSA
+         IODEVICE ADDRESS=(F40,015),UNITADD=00,CUNUMBR=(00A4),UNIT=OSA
+         IODEVICE ADDRESS=F4F,UNITADD=FE,CUNUMBR=(00A4),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00A5,PATH=((CSS(0),A5)),UNIT=OSA
+         IODEVICE ADDRESS=(F50,015),UNITADD=00,CUNUMBR=(00A5),         *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO)),UNIT=OSA
+         IODEVICE ADDRESS=F5F,UNITADD=FE,CUNUMBR=(00A5),               *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO)),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00A6,PATH=((CSS(0),A6)),UNIT=OSC
+         IODEVICE ADDRESS=(0C0,016),MODEL=X,UNITADD=00,CUNUMBR=(00A6), *
+               UNIT=3270
+         CNTLUNIT CUNUMBR=00A7,PATH=((CSS(0),A7)),UNIT=OSA
+         IODEVICE ADDRESS=(F70,015),UNITADD=00,CUNUMBR=(00A7),         *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO)),UNIT=OSA
+         IODEVICE ADDRESS=F7F,UNITADD=FE,CUNUMBR=(00A7),               *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO)),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00A8,PATH=((CSS(0),A8)),UNIT=OSA
+         IODEVICE ADDRESS=(F80,015),UNITADD=00,CUNUMBR=(00A8),UNIT=OSA
+         IODEVICE ADDRESS=F8F,UNITADD=FE,CUNUMBR=(00A8),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00A9,PATH=((CSS(0),A9)),UNIT=OSA
+         IODEVICE ADDRESS=(F90,015),UNITADD=00,CUNUMBR=(00A9),         *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO)),UNIT=OSA
+         IODEVICE ADDRESS=F9F,UNITADD=FE,CUNUMBR=(00A9),               *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO)),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00AA,PATH=((CSS(0),AA)),UNIT=OSA
+         IODEVICE ADDRESS=(FA0,015),UNITADD=00,CUNUMBR=(00AA),         *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO)),UNIT=OSA
+         IODEVICE ADDRESS=FAF,UNITADD=FE,CUNUMBR=(00AA),               *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO)),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00AB,PATH=((CSS(0),AB)),UNIT=OSA
+         IODEVICE ADDRESS=(FB0,015),UNITADD=00,CUNUMBR=(00AB),         *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO)),UNIT=OSA
+         IODEVICE ADDRESS=FBF,UNITADD=FE,CUNUMBR=(00AB),               *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO)),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00AC,PATH=((CSS(0),AC)),UNIT=OSA
+         IODEVICE ADDRESS=(FC0,015),UNITADD=00,CUNUMBR=(00AC),UNIT=OSA
+         IODEVICE ADDRESS=FCF,UNITADD=FE,CUNUMBR=(00AC),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00AD,PATH=((CSS(0),AD)),UNIT=OSA
+         IODEVICE ADDRESS=(FD0,015),UNITADD=00,CUNUMBR=(00AD),UNIT=OSA
+         IODEVICE ADDRESS=FDF,UNITADD=FE,CUNUMBR=(00AD),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00AE,PATH=((CSS(0),AE)),UNIT=OSA
+         IODEVICE ADDRESS=(FE0,015),UNITADD=00,CUNUMBR=(00AE),UNIT=OSA
+         IODEVICE ADDRESS=FEF,UNITADD=FE,CUNUMBR=(00AE),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00AF,PATH=((CSS(0),AF)),UNIT=OSA
+         IODEVICE ADDRESS=(FF0,015),UNITADD=00,CUNUMBR=(00AF),UNIT=OSA
+         IODEVICE ADDRESS=FFF,UNITADD=FE,CUNUMBR=(00AF),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00B0,PATH=((CSS(0),B0)),UNIT=OSA
+         IODEVICE ADDRESS=(F00,015),CUNUMBR=(00B0),UNIT=OSA
+         IODEVICE ADDRESS=F0F,UNITADD=FE,CUNUMBR=(00B0),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00B1,PATH=((CSS(0),B1)),UNIT=OSA
+         IODEVICE ADDRESS=(BF10,015),UNITADD=00,CUNUMBR=(00B1),UNIT=OSA
+         IODEVICE ADDRESS=BF1F,UNITADD=FE,CUNUMBR=(00B1),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00B2,PATH=((CSS(0),B2)),UNIT=OSA
+         IODEVICE ADDRESS=(BF20,015),UNITADD=00,CUNUMBR=(00B2),UNIT=OSA
+         IODEVICE ADDRESS=BF2F,UNITADD=FE,CUNUMBR=(00B2),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00B3,PATH=((CSS(0),B3)),UNIT=OSA
+         IODEVICE ADDRESS=(BF30,015),UNITADD=00,CUNUMBR=(00B3),UNIT=OSA
+         IODEVICE ADDRESS=BF3F,UNITADD=FE,CUNUMBR=(00B3),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00B4,PATH=((CSS(0),B4)),UNIT=OSA
+         IODEVICE ADDRESS=(1F40,015),UNITADD=00,CUNUMBR=(00B4),        *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO)),UNIT=OSA
+         IODEVICE ADDRESS=1F4F,UNITADD=FE,CUNUMBR=(00B4),              *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO)),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00B5,PATH=((CSS(0),B5)),UNIT=OSA
+         IODEVICE ADDRESS=(1F50,015),UNITADD=00,CUNUMBR=(00B5),        *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO)),UNIT=OSA
+         IODEVICE ADDRESS=1F5F,UNITADD=FE,CUNUMBR=(00B5),              *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO)),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00B6,PATH=((CSS(0),B6)),UNIT=OSA
+         IODEVICE ADDRESS=(1F60,015),UNITADD=00,CUNUMBR=(00B6),        *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO)),UNIT=OSA
+         IODEVICE ADDRESS=1F6F,UNITADD=FE,CUNUMBR=(00B6),              *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO)),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00B7,PATH=((CSS(0),B7)),CUADD=0,UNIT=OSA
+         IODEVICE ADDRESS=(BE00,128),UNITADD=20,CUNUMBR=(00B7),        *
+               PARTITION=((CSS(0),ZVMCFIA,ZVMG7,PFM1,ZVMCSDL)),UNIT=OSA
+         IODEVICE ADDRESS=(BF70,031),UNITADD=00,CUNUMBR=(00B7),        *
+               PARTITION=((CSS(0),ZVMCFIA,ZVMG7,PFM1,ZVMCSDL)),UNIT=OSA
+         IODEVICE ADDRESS=BF8F,UNITADD=FE,CUNUMBR=(00B7),UNIT=OSAD
+         CNTLUNIT CUNUMBR=00B8,PATH=((CSS(0),B8)),UNIT=OSC
+         IODEVICE ADDRESS=(3500,016),MODEL=X,CUNUMBR=(00B8),UNIT=3270
+         CNTLUNIT CUNUMBR=00B9,PATH=((CSS(0),B9)),CUADD=0,UNIT=OSA
+         IODEVICE ADDRESS=(BE80,128),UNITADD=20,CUNUMBR=(00B9),        *
+               PARTITION=((CSS(0),ZVMCFIA,ZVMG7,PFM1,ZVMCSDL)),UNIT=OSA
+         IODEVICE ADDRESS=(BF90,031),UNITADD=00,CUNUMBR=(00B9),        *
+               PARTITION=((CSS(0),ZVMCFIA,ZVMG7,PFM1,ZVMCSDL)),UNIT=OSA
+         IODEVICE ADDRESS=BFAF,UNITADD=FE,CUNUMBR=(00B9),UNIT=OSAD
+         CNTLUNIT CUNUMBR=0500,PATH=((CSS(0),13)),UNITADD=((00,032)),  *
+               SHARED=N,PROTOCL=S,UNIT=3174
+         IODEVICE ADDRESS=(500,032),MODEL=2,CUNUMBR=(0500),TIMEOUT=Y,  *
+               STADET=Y,UNIT=3278
+         CNTLUNIT CUNUMBR=0A00,PATH=((CSS(0),0B)),UNITADD=((00,016)),  *
+               UNIT=SCTC
+         IODEVICE ADDRESS=(A00,016),CUNUMBR=(0A00),STADET=Y,UNIT=SCTC
+         CNTLUNIT CUNUMBR=0A20,PATH=((CSS(0),0F)),UNITADD=((20,016)),  *
+               UNIT=SCTC
+         IODEVICE ADDRESS=(A20,016),CUNUMBR=(0A20),STADET=Y,UNIT=SCTC
+         CNTLUNIT CUNUMBR=101F,PATH=((CSS(0),4E)),UNITADD=((00,002)),  *
+               LINK=((CSS(0),0337)),CUADD=1,UNIT=FCTC
+         IODEVICE ADDRESS=2C10,UNITADD=00,CUNUMBR=(101F),STADET=Y,     *
+               UNIT=FCTC
+         CNTLUNIT CUNUMBR=10F1,PATH=((CSS(0),4E)),UNITADD=((00,002)),  *
+               LINK=((CSS(0),033B)),CUADD=1,UNIT=FCTC
+         IODEVICE ADDRESS=CA0,UNITADD=00,CUNUMBR=(10F1),STADET=Y,      *
+               UNIT=FCTC
+         CNTLUNIT CUNUMBR=10F2,PATH=((CSS(0),4E)),UNITADD=((00,002)),  *
+               LINK=((CSS(0),033B)),CUADD=2,UNIT=FCTC
+         IODEVICE ADDRESS=CB0,UNITADD=00,CUNUMBR=(10F2),STADET=Y,      *
+               UNIT=FCTC
+         CNTLUNIT CUNUMBR=10F3,PATH=((CSS(0),4E)),UNITADD=((00,002)),  *
+               LINK=((CSS(0),033B)),CUADD=3,UNIT=FCTC
+         IODEVICE ADDRESS=CC0,UNITADD=00,CUNUMBR=(10F3),STADET=Y,      *
+               UNIT=FCTC
+         CNTLUNIT CUNUMBR=10F5,PATH=((CSS(0),4E)),UNITADD=((00,002)),  *
+               LINK=((CSS(0),033B)),CUADD=5,UNIT=FCTC
+         IODEVICE ADDRESS=C50,UNITADD=00,CUNUMBR=(10F5),STADET=Y,      *
+               UNIT=FCTC
+         CNTLUNIT CUNUMBR=10F6,PATH=((CSS(0),4E)),UNITADD=((00,002)),  *
+               LINK=((CSS(0),033B)),CUADD=6,UNIT=FCTC
+         IODEVICE ADDRESS=C60,UNITADD=00,CUNUMBR=(10F6),STADET=Y,      *
+               UNIT=FCTC
+         CNTLUNIT CUNUMBR=10F9,PATH=((CSS(0),4E)),UNITADD=((00,002)),  *
+               LINK=((CSS(0),033B)),CUADD=9,UNIT=FCTC
+         IODEVICE ADDRESS=C90,UNITADD=00,CUNUMBR=(10F9),STADET=Y,      *
+               UNIT=FCTC
+         CNTLUNIT CUNUMBR=10FB,PATH=((CSS(0),4E)),UNITADD=((00,002)),  *
+               LINK=((CSS(0),0337)),CUADD=2,UNIT=FCTC
+         IODEVICE ADDRESS=2C20,UNITADD=00,CUNUMBR=(10FB),STADET=Y,     *
+               UNIT=FCTC
+         CNTLUNIT CUNUMBR=170F,PATH=((CSS(0),4E)),UNITADD=((00,002)),  *
+               LINK=((CSS(0),0337)),CUADD=7,UNIT=FCTC
+         IODEVICE ADDRESS=2C70,UNITADD=00,CUNUMBR=(170F),STADET=Y,     *
+               UNIT=FCTC
+         CNTLUNIT CUNUMBR=180F,PATH=((CSS(0),4E)),UNITADD=((00,002)),  *
+               LINK=((CSS(0),0337)),CUADD=8,UNIT=FCTC
+         IODEVICE ADDRESS=2C80,UNITADD=00,CUNUMBR=(180F),STADET=Y,     *
+               UNIT=FCTC
+         CNTLUNIT CUNUMBR=4000,PATH=((CSS(0),03)),UNITADD=((01,001)),  *
+               LINK=((CSS(0),87)),UNIT=4000
+         IODEVICE ADDRESS=400,UNITADD=01,CUNUMBR=(4000),STADET=Y,      *
+               UNIT=4000
+         CNTLUNIT CUNUMBR=4901,PATH=((CSS(0),01,0C,04,10)),            *
+               UNITADD=((00,016)),LINK=((CSS(0),74,7C,74,7C)),UNIT=3490
+         IODEVICE ADDRESS=(490,004),UNITADD=00,CUNUMBR=(4901),STADET=Y,*
+               PARTITION=((CSS(0),UITC,MVSCMC,ZVMCFIA,COSMOSP)),       *
+               UNIT=3490
+         IODEVICE ADDRESS=(498,004),UNITADD=08,CUNUMBR=(4901),STADET=Y,*
+               PARTITION=((CSS(0),UITC,MVSCMC,ZVMCFIA,COSMOSP)),       *
+               UNIT=3490
+         CNTLUNIT CUNUMBR=5901,PATH=((CSS(0),02,0A,06,11)),            *
+               UNITADD=((00,004)),LINK=((CSS(0),04,0C,04,0C)),UNIT=3590
+         IODEVICE ADDRESS=(590,002),UNITADD=00,CUNUMBR=(5901),STADET=Y,*
+               UNIT=3590
+         CNTLUNIT CUNUMBR=5902,PATH=((CSS(0),01,0C,04,10)),            *
+               UNITADD=((00,004)),LINK=((CSS(0),14,1C,14,1C)),UNIT=3590
+         IODEVICE ADDRESS=(592,004),UNITADD=00,CUNUMBR=(5902),STADET=Y,*
+               UNIT=3590
+         CNTLUNIT CUNUMBR=5903,PATH=((CSS(0),02,0A,06,11)),            *
+               UNITADD=((00,004)),LINK=((CSS(0),24,2C,24,2C)),UNIT=3590
+         IODEVICE ADDRESS=(596,004),UNITADD=00,CUNUMBR=(5903),STADET=Y,*
+               UNIT=3590
+         CNTLUNIT CUNUMBR=5904,PATH=((CSS(0),02,06)),                  *
+               UNITADD=((00,004)),LINK=((CSS(0),A4,A4)),UNIT=3590
+         IODEVICE ADDRESS=(1D00,002),CUNUMBR=(5904),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,ZVMCSDL)),UNIT=3590
+         CNTLUNIT CUNUMBR=5921,PATH=((CSS(0),C8,54)),                  *
+               UNITADD=((00,016)),LINK=((CSS(0),0336,**)),UNIT=3590
+         IODEVICE ADDRESS=(92A,002),UNITADD=00,CUNUMBR=(5921),STADET=Y,*
+               UNIT=3590
+         CNTLUNIT CUNUMBR=5922,PATH=((CSS(0),C8,74)),                  *
+               UNITADD=((00,016)),LINK=((CSS(0),033F,**)),UNIT=3590
+         IODEVICE ADDRESS=(92C,004),UNITADD=00,CUNUMBR=(5922),STADET=Y,*
+               UNIT=3590
+         CNTLUNIT CUNUMBR=5923,PATH=((CSS(0),C8,D4)),                  *
+               UNITADD=((00,016)),LINK=((CSS(0),0346,**)),UNIT=3590
+         IODEVICE ADDRESS=(320,004),UNITADD=00,CUNUMBR=(5923),STADET=Y,*
+               UNIT=3590
+         CNTLUNIT CUNUMBR=5924,PATH=((CSS(0),D7,C5)),                  *
+               UNITADD=((00,016)),LINK=((CSS(0),035A,**)),UNIT=3590
+         IODEVICE ADDRESS=(930,004),UNITADD=00,CUNUMBR=(5924),STADET=Y,*
+               UNIT=3590
+         CNTLUNIT CUNUMBR=5925,PATH=((CSS(0),D7,D1)),                  *
+               UNITADD=((00,016)),LINK=((CSS(0),036A,**)),UNIT=3590
+         IODEVICE ADDRESS=(934,004),UNITADD=00,CUNUMBR=(5925),STADET=Y,*
+               UNIT=3590
+         CNTLUNIT CUNUMBR=5926,PATH=((CSS(0),C8)),UNITADD=((00,008)),  *
+               LINK=((CSS(0),0357)),UNIT=3590
+         IODEVICE ADDRESS=(324,008),UNITADD=00,CUNUMBR=(5926),STADET=Y,*
+               UNIT=3590
+         CNTLUNIT CUNUMBR=7452,PATH=((CSS(0),08)),UNITADD=((01,001)),  *
+               LINK=((CSS(0),5C)),SHARED=N,PROTOCL=S,UNIT=3745
+         IODEVICE ADDRESS=452,UNITADD=01,CUNUMBR=(7452),TIMEOUT=Y,     *
+               STADET=N,UNIT=3745
+         CNTLUNIT CUNUMBR=74B2,PATH=((CSS(0),12)),UNITADD=((01,001)),  *
+               LINK=((CSS(0),5C)),SHARED=Y,PROTOCL=S,UNIT=3745
+         IODEVICE ADDRESS=4B2,UNITADD=01,CUNUMBR=(74B2),TIMEOUT=Y,     *
+               STADET=N,UNIT=3745
+         CNTLUNIT CUNUMBR=8770,PATH=((CSS(0),40,50,80,CC)),            *
+               UNITADD=((00,128)),LINK=((CSS(0),033E,**,**,**)),       *
+               CUADD=70,UNIT=2107
+         IODEVICE ADDRESS=(9000,064),CUNUMBR=(8770),STADET=Y,          *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(9040,064),CUNUMBR=(8770),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8771,PATH=((CSS(0),48,50,80,CC)),            *
+               UNITADD=((00,128)),LINK=((CSS(0),0343,**,**,**)),       *
+               CUADD=71,UNIT=2107
+         IODEVICE ADDRESS=(9080,064),UNITADD=00,CUNUMBR=(8771),        *
+               STADET=Y,                                               *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(90C0,064),UNITADD=40,CUNUMBR=(8771),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8772,PATH=((CSS(0),70,50,80,CC)),            *
+               UNITADD=((00,128)),LINK=((CSS(0),0347,**,**,**)),       *
+               CUADD=72,UNIT=2107
+         IODEVICE ADDRESS=(9100,064),CUNUMBR=(8772),STADET=Y,          *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(9140,064),CUNUMBR=(8772),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8773,PATH=((CSS(0),78,50,80,CC)),            *
+               UNITADD=((00,128)),LINK=((CSS(0),034B,**,**,**)),       *
+               CUADD=73,UNIT=2107
+         IODEVICE ADDRESS=(9180,064),UNITADD=00,CUNUMBR=(8773),        *
+               STADET=Y,                                               *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(91C0,064),UNITADD=40,CUNUMBR=(8773),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8774,PATH=((CSS(0),40,50,80,CC)),            *
+               UNITADD=((00,128)),LINK=((CSS(0),033E,**,**,**)),       *
+               CUADD=74,UNIT=2107
+         IODEVICE ADDRESS=(9200,064),CUNUMBR=(8774),STADET=Y,          *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(9240,064),CUNUMBR=(8774),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8775,PATH=((CSS(0),48,50,80,CC)),            *
+               UNITADD=((00,128)),LINK=((CSS(0),0343,**,**,**)),       *
+               CUADD=75,UNIT=2107
+         IODEVICE ADDRESS=(9280,064),UNITADD=00,CUNUMBR=(8775),        *
+               STADET=Y,                                               *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(92C0,064),UNITADD=40,CUNUMBR=(8775),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8776,PATH=((CSS(0),70,50,80,CC)),            *
+               UNITADD=((00,128)),LINK=((CSS(0),0347,**,**,**)),       *
+               CUADD=76,UNIT=2107
+         IODEVICE ADDRESS=(9300,064),CUNUMBR=(8776),STADET=Y,          *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(9340,064),CUNUMBR=(8776),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8777,PATH=((CSS(0),78,50,80,CC)),            *
+               UNITADD=((00,128)),LINK=((CSS(0),034B,**,**,**)),       *
+               CUADD=77,UNIT=2107
+         IODEVICE ADDRESS=(9380,064),UNITADD=00,CUNUMBR=(8777),        *
+               STADET=Y,                                               *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(93C0,064),UNITADD=40,CUNUMBR=(8777),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8778,PATH=((CSS(0),40,50,80,CC)),            *
+               UNITADD=((00,128)),LINK=((CSS(0),033E,**,**,**)),       *
+               CUADD=78,UNIT=2107
+         IODEVICE ADDRESS=(9400,064),CUNUMBR=(8778),STADET=Y,          *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(9440,064),CUNUMBR=(8778),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8779,PATH=((CSS(0),48,50,80,CC)),            *
+               UNITADD=((00,128)),LINK=((CSS(0),0343,**,**,**)),       *
+               CUADD=79,UNIT=2107
+         IODEVICE ADDRESS=(9480,064),UNITADD=00,CUNUMBR=(8779),        *
+               STADET=Y,                                               *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(94C0,064),UNITADD=40,CUNUMBR=(8779),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=877A,PATH=((CSS(0),70,50,80,CC)),            *
+               UNITADD=((00,128)),LINK=((CSS(0),0347,**,**,**)),       *
+               CUADD=7A,UNIT=2107
+         IODEVICE ADDRESS=(9500,022),CUNUMBR=(877A),STADET=Y,          *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(9528,088),CUNUMBR=(877A),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=877B,PATH=((CSS(0),78,50,80,CC)),            *
+               UNITADD=((00,128)),LINK=((CSS(0),034B,**,**,**)),       *
+               CUADD=7B,UNIT=2107
+         IODEVICE ADDRESS=(9580,022),UNITADD=00,CUNUMBR=(877B),        *
+               STADET=Y,                                               *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(95A8,088),UNITADD=28,CUNUMBR=(877B),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=877C,PATH=((CSS(0),40,50,80,CC)),            *
+               UNITADD=((00,128)),LINK=((CSS(0),033E,**,**,**)),       *
+               CUADD=7C,UNIT=2107
+         IODEVICE ADDRESS=(9600,022),CUNUMBR=(877C),STADET=Y,          *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(9628,088),CUNUMBR=(877C),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8800,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=0,   *
+               UNIT=2107
+         IODEVICE ADDRESS=(100,064),CUNUMBR=(8800),STADET=Y,           *
+               PARTITION=((CSS(0),ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(140,064),CUNUMBR=(8800),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8801,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034F,033E,0343,0347,**,**,**)),CUADD=1,   *
+               UNIT=2107
+         IODEVICE ADDRESS=(180,064),UNITADD=00,CUNUMBR=(8801),STADET=Y,*
+               PARTITION=((CSS(0),ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(1C0,064),UNITADD=40,CUNUMBR=(8801),STADET=Y,*
+               UNIT=3390A
+         CNTLUNIT CUNUMBR=8802,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034B,034F,033E,0343,**,**,**)),CUADD=2,   *
+               UNIT=2107
+         IODEVICE ADDRESS=(200,064),CUNUMBR=(8802),STADET=Y,           *
+               PARTITION=((CSS(0),ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(240,064),CUNUMBR=(8802),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8803,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,033E,**,**,**)),CUADD=3,   *
+               UNIT=2107
+         IODEVICE ADDRESS=(5A00,032),CUNUMBR=(8803),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(5A20,032),CUNUMBR=(8803),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(5A40,064),CUNUMBR=(8803),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8804,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0343,0347,034B,034F,**,**,**)),CUADD=4,   *
+               UNIT=2107
+         IODEVICE ADDRESS=(5B00,064),CUNUMBR=(8804),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,TAIVM1,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(5B80,064),UNITADD=40,CUNUMBR=(8804),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8805,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=5,   *
+               UNIT=2107
+         IODEVICE ADDRESS=(5B40,064),UNITADD=00,CUNUMBR=(8805),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(5BC0,064),UNITADD=40,CUNUMBR=(8805),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8806,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034F,033E,0343,0347,**,**,**)),CUADD=6,   *
+               UNIT=2107
+         IODEVICE ADDRESS=(D000,064),CUNUMBR=(8806),STADET=Y,          *
+               PARTITION=((CSS(0),UITC,ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(D040,064),CUNUMBR=(8806),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8807,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034B,034F,033E,0343,**,**,**)),CUADD=7,   *
+               UNIT=2107
+         IODEVICE ADDRESS=(D080,064),UNITADD=00,CUNUMBR=(8807),        *
+               STADET=Y,PARTITION=((CSS(0),UITC,ZVMCFIA,USER3)),       *
+               UNIT=3390B
+         IODEVICE ADDRESS=(D0C0,064),UNITADD=40,CUNUMBR=(8807),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8808,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,033E,**,**,**)),CUADD=8,   *
+               UNIT=2107
+         IODEVICE ADDRESS=(D100,064),CUNUMBR=(8808),STADET=Y,          *
+               PARTITION=((CSS(0),UITC,ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(D140,064),CUNUMBR=(8808),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8809,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0343,0347,034B,034F,**,**,**)),CUADD=9,   *
+               UNIT=2107
+         IODEVICE ADDRESS=(D180,064),UNITADD=00,CUNUMBR=(8809),        *
+               STADET=Y,PARTITION=((CSS(0),UITC,ZVMCFIA,USER3)),       *
+               UNIT=3390B
+         IODEVICE ADDRESS=(D1C0,064),UNITADD=40,CUNUMBR=(8809),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=880A,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=A,   *
+               UNIT=2107
+         IODEVICE ADDRESS=(D200,034),CUNUMBR=(880A),STADET=Y,          *
+               PARTITION=((CSS(0),UITC,ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(D222,006),CUNUMBR=(880A),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(D228,088),CUNUMBR=(880A),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=880B,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034F,033E,0343,0347,**,**,**)),CUADD=B,   *
+               UNIT=2107
+         IODEVICE ADDRESS=(D280,064),UNITADD=00,CUNUMBR=(880B),        *
+               STADET=Y,PARTITION=((CSS(0),UITC,ZVMCFIA,USER3)),       *
+               UNIT=3390B
+         IODEVICE ADDRESS=(D2C0,064),UNITADD=40,CUNUMBR=(880B),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=880C,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034B,034F,033E,0343,**,**,**)),CUADD=C,   *
+               UNIT=2107
+         IODEVICE ADDRESS=(D300,064),CUNUMBR=(880C),STADET=Y,          *
+               PARTITION=((CSS(0),UITC,ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(D340,064),CUNUMBR=(880C),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=880D,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,033E,**,**,**)),CUADD=D,   *
+               UNIT=2107
+         IODEVICE ADDRESS=(D380,064),UNITADD=00,CUNUMBR=(880D),        *
+               STADET=Y,PARTITION=((CSS(0),UITC,ZVMCFIA,USER3)),       *
+               UNIT=3390B
+         IODEVICE ADDRESS=(D3C0,064),UNITADD=40,CUNUMBR=(880D),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=880E,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0343,0347,034B,034F,**,**,**)),CUADD=E,   *
+               UNIT=2107
+         IODEVICE ADDRESS=(D400,064),CUNUMBR=(880E),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(D440,064),CUNUMBR=(880E),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=880F,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=F,   *
+               UNIT=2107
+         IODEVICE ADDRESS=(D480,064),UNITADD=00,CUNUMBR=(880F),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(D4C0,064),UNITADD=40,CUNUMBR=(880F),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8810,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=10,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(D500,021),CUNUMBR=(8810),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,COSMOSP,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(D515,001),CUNUMBR=(8810),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(D528,088),CUNUMBR=(8810),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8811,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034F,033E,0343,0347,**,**,**)),CUADD=11,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(D580,021),UNITADD=00,CUNUMBR=(8811),        *
+               STADET=Y,PARTITION=((CSS(0),ZVMCFIA,COSMOSP,USER3)),    *
+               UNIT=3390B
+         IODEVICE ADDRESS=D595,UNITADD=15,CUNUMBR=(8811),STADET=Y,     *
+               PARTITION=((CSS(0),ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(D5A8,088),UNITADD=28,CUNUMBR=(8811),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8812,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034B,034F,033E,0343,**,**,**)),CUADD=12,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(D600,021),CUNUMBR=(8812),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,COSMOSP,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(D615,001),CUNUMBR=(8812),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(D628,088),CUNUMBR=(8812),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8813,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,033E,**,**,**)),CUADD=13,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(D680,021),UNITADD=00,CUNUMBR=(8813),        *
+               STADET=Y,PARTITION=((CSS(0),ZVMCFIA,COSMOSP,USER3)),    *
+               UNIT=3390B
+         IODEVICE ADDRESS=D695,UNITADD=15,CUNUMBR=(8813),STADET=Y,     *
+               PARTITION=((CSS(0),ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(D6A8,088),UNITADD=28,CUNUMBR=(8813),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8814,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0343,0347,034B,034F,**,**,**)),CUADD=14,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(D700,021),CUNUMBR=(8814),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,COSMOSP,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(D715,001),CUNUMBR=(8814),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(D728,088),CUNUMBR=(8814),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8815,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=15,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(D780,021),UNITADD=00,CUNUMBR=(8815),        *
+               STADET=Y,PARTITION=((CSS(0),ZVMCFIA,COSMOSP,USER3)),    *
+               UNIT=3390B
+         IODEVICE ADDRESS=D795,UNITADD=15,CUNUMBR=(8815),STADET=Y,     *
+               PARTITION=((CSS(0),ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(D7A8,088),UNITADD=28,CUNUMBR=(8815),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8816,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034F,033E,0343,0347,**,**,**)),CUADD=16,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(D800,021),CUNUMBR=(8816),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,COSMOSP,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(D815,001),CUNUMBR=(8816),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(D828,088),CUNUMBR=(8816),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8817,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034B,034F,033E,0343,**,**,**)),CUADD=17,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(D880,064),UNITADD=00,CUNUMBR=(8817),        *
+               STADET=Y,PARTITION=((CSS(0),ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(D8C0,064),UNITADD=40,CUNUMBR=(8817),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8818,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,033E,**,**,**)),CUADD=18,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(D900,064),CUNUMBR=(8818),STADET=Y,          *
+               PARTITION=((CSS(0),UITC,MVSCMC,ZVMCFIA,USER3)),         *
+               UNIT=3390B
+         IODEVICE ADDRESS=(D940,064),CUNUMBR=(8818),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8819,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0343,0347,034B,034F,**,**,**)),CUADD=19,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(D980,064),UNITADD=00,CUNUMBR=(8819),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(D9C0,064),UNITADD=40,CUNUMBR=(8819),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=881A,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=1A,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(DA00,064),CUNUMBR=(881A),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(DA40,064),CUNUMBR=(881A),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=881B,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034F,033E,0343,0347,**,**,**)),CUADD=1B,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(DA80,064),UNITADD=00,CUNUMBR=(881B),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(DAC0,064),UNITADD=40,CUNUMBR=(881B),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=881C,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034B,034F,033E,0343,**,**,**)),CUADD=1C,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(DB00,064),CUNUMBR=(881C),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(DB40,064),CUNUMBR=(881C),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=881D,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,033E,**,**,**)),CUADD=1D,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(DB80,064),UNITADD=00,CUNUMBR=(881D),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(DBC0,064),UNITADD=40,CUNUMBR=(881D),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=881E,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0343,0347,034B,034F,**,**,**)),CUADD=1E,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(DC00,064),CUNUMBR=(881E),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(DC40,064),CUNUMBR=(881E),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=881F,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034F,033E,0343,0347,**,**,**)),CUADD=1F,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(DC80,064),UNITADD=00,CUNUMBR=(881F),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(DCC0,064),UNITADD=40,CUNUMBR=(881F),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8820,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=20,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(DD00,021),CUNUMBR=(8820),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,COSMOSP,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(DD15,001),CUNUMBR=(8820),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(DD28,088),CUNUMBR=(8820),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8821,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034F,033E,0343,0347,**,**,**)),CUADD=21,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(DD80,021),UNITADD=00,CUNUMBR=(8821),        *
+               STADET=Y,PARTITION=((CSS(0),ZVMCFIA,COSMOSP,USER3)),    *
+               UNIT=3390B
+         IODEVICE ADDRESS=DD95,UNITADD=15,CUNUMBR=(8821),STADET=Y,     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(DDA8,088),UNITADD=28,CUNUMBR=(8821),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8822,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034B,034F,033E,0343,**,**,**)),CUADD=22,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(DE00,021),CUNUMBR=(8822),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,COSMOSP,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(DE15,001),CUNUMBR=(8822),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(DE28,088),CUNUMBR=(8822),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8823,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,033E,**,**,**)),CUADD=23,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(DE80,021),UNITADD=00,CUNUMBR=(8823),        *
+               STADET=Y,PARTITION=((CSS(0),ZVMCFIA,COSMOSP,USER3)),    *
+               UNIT=3390B
+         IODEVICE ADDRESS=DE95,UNITADD=15,CUNUMBR=(8823),STADET=Y,     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(DEA8,088),UNITADD=28,CUNUMBR=(8823),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8824,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0343,0347,034B,034F,**,**,**)),CUADD=24,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(DF00,021),CUNUMBR=(8824),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,COSMOSP,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(DF15,001),CUNUMBR=(8824),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(DF28,088),CUNUMBR=(8824),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8825,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=25,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(DF80,021),UNITADD=00,CUNUMBR=(8825),        *
+               STADET=Y,PARTITION=((CSS(0),ZVMCFIA,COSMOSP,USER3)),    *
+               UNIT=3390B
+         IODEVICE ADDRESS=DF95,UNITADD=15,CUNUMBR=(8825),STADET=Y,     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(DFA8,088),UNITADD=28,CUNUMBR=(8825),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8826,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034F,033E,0343,0347,**,**,**)),CUADD=26,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E000,040),CUNUMBR=(8826),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,BCYBERP,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(E030,080),CUNUMBR=(8826),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8827,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034B,034F,033E,0343,**,**,**)),CUADD=27,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E080,040),UNITADD=00,CUNUMBR=(8827),        *
+               STADET=Y,PARTITION=((CSS(0),ZVMCFIA,BCYBERP,USER3)),    *
+               UNIT=3390B
+         IODEVICE ADDRESS=(E0B0,080),UNITADD=30,CUNUMBR=(8827),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8828,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,033E,**,**,**)),CUADD=28,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E100,040),CUNUMBR=(8828),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,BCYBERP,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(E130,080),CUNUMBR=(8828),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8829,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0343,0347,034B,034F,**,**,**)),CUADD=29,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E180,040),UNITADD=00,CUNUMBR=(8829),        *
+               STADET=Y,PARTITION=((CSS(0),ZVMCFIA,BCYBERP,USER3)),    *
+               UNIT=3390B
+         IODEVICE ADDRESS=(E1B0,080),UNITADD=30,CUNUMBR=(8829),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=882A,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=2A,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E200,040),CUNUMBR=(882A),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,BCYBERP,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(E230,080),CUNUMBR=(882A),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=882B,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034F,033E,0343,0347,**,**,**)),CUADD=2B,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E280,040),UNITADD=00,CUNUMBR=(882B),        *
+               STADET=Y,PARTITION=((CSS(0),ZVMCFIA,BCYBERP,USER3)),    *
+               UNIT=3390B
+         IODEVICE ADDRESS=(E2B0,080),UNITADD=30,CUNUMBR=(882B),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=882C,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034B,034F,033E,0343,**,**,**)),CUADD=2C,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E300,064),CUNUMBR=(882C),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,BCYBERP,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(E340,064),CUNUMBR=(882C),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=882D,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,033E,**,**,**)),CUADD=2D,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E380,064),UNITADD=00,CUNUMBR=(882D),        *
+               STADET=Y,PARTITION=((CSS(0),ZVMCFIA,BCYBERP,USER3)),    *
+               UNIT=3390B
+         IODEVICE ADDRESS=(E3C0,064),UNITADD=40,CUNUMBR=(882D),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=882E,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0343,0347,034B,034F,**,**,**)),CUADD=2E,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E400,064),CUNUMBR=(882E),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,BCYBERP,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(E440,064),CUNUMBR=(882E),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=882F,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034B,034F,033E,0343,**,**,**)),CUADD=2F,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E480,064),UNITADD=00,CUNUMBR=(882F),        *
+               STADET=Y,PARTITION=((CSS(0),ZVMCFIA,BCYBERP,USER3)),    *
+               UNIT=3390B
+         IODEVICE ADDRESS=(E4C0,064),UNITADD=40,CUNUMBR=(882F),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8830,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=30,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E500,064),CUNUMBR=(8830),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(E540,064),CUNUMBR=(8830),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8831,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034F,033E,0343,0347,**,**,**)),CUADD=31,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E580,064),UNITADD=00,CUNUMBR=(8831),        *
+               STADET=Y,PARTITION=((CSS(0),ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(E5C0,064),UNITADD=40,CUNUMBR=(8831),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8832,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034B,034F,033E,0343,**,**,**)),CUADD=32,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E600,064),CUNUMBR=(8832),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(E640,064),CUNUMBR=(8832),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8833,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,033E,**,**,**)),CUADD=33,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E680,040),UNITADD=00,CUNUMBR=(8833),        *
+               STADET=Y,PARTITION=((CSS(0),ZVMCFIA,USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(E6B0,080),UNITADD=30,CUNUMBR=(8833),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8834,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0343,0347,034B,034F,**,**,**)),CUADD=34,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E700,064),CUNUMBR=(8834),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(E740,064),CUNUMBR=(8834),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8835,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=35,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E780,064),UNITADD=00,CUNUMBR=(8835),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(E7C0,064),UNITADD=40,CUNUMBR=(8835),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8836,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034F,033E,0343,0347,**,**,**)),CUADD=36,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E800,064),CUNUMBR=(8836),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(E840,064),CUNUMBR=(8836),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8837,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034B,034F,033E,0343,**,**,**)),CUADD=37,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E880,064),UNITADD=00,CUNUMBR=(8837),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(E8C0,064),UNITADD=40,CUNUMBR=(8837),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8838,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,033E,**,**,**)),CUADD=38,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E900,064),CUNUMBR=(8838),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(E940,064),CUNUMBR=(8838),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8839,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0343,0347,034B,034F,**,**,**)),CUADD=39,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E980,064),UNITADD=00,CUNUMBR=(8839),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(E9C0,064),UNITADD=40,CUNUMBR=(8839),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=883A,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=3A,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(EA00,064),CUNUMBR=(883A),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(EA40,064),CUNUMBR=(883A),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=883B,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034F,033E,0343,0347,**,**,**)),CUADD=3B,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(EA80,064),UNITADD=00,CUNUMBR=(883B),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(EAC0,064),UNITADD=40,CUNUMBR=(883B),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=883C,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034B,034F,033E,0343,**,**,**)),CUADD=3C,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(EB00,064),CUNUMBR=(883C),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(EB40,064),CUNUMBR=(883C),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=883D,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,033E,**,**,**)),CUADD=3D,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(EB80,064),UNITADD=00,CUNUMBR=(883D),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(EBC0,064),UNITADD=40,CUNUMBR=(883D),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=883E,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,034F,**,**,**)),CUADD=3E,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(EC00,064),CUNUMBR=(883E),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(EC40,064),CUNUMBR=(883E),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=883F,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,033E,**,**,**)),CUADD=3F,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(EC80,064),UNITADD=00,CUNUMBR=(883F),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(ECC0,064),UNITADD=40,CUNUMBR=(883F),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8840,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=40,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(ED00,064),CUNUMBR=(8840),STADET=Y,          *
+               PARTITION=((CSS(0),USER3)),UNIT=3390B
+         IODEVICE ADDRESS=(ED40,064),CUNUMBR=(8840),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8841,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034F,033E,0343,0347,**,**,**)),CUADD=41,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(ED80,064),UNITADD=00,CUNUMBR=(8841),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(EDC0,064),UNITADD=40,CUNUMBR=(8841),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8842,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034B,034F,033E,0343,**,**,**)),CUADD=42,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(EE00,064),CUNUMBR=(8842),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(EE40,064),CUNUMBR=(8842),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8843,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,033E,**,**,**)),CUADD=43,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(EE80,064),UNITADD=00,CUNUMBR=(8843),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(EEC0,064),UNITADD=40,CUNUMBR=(8843),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8844,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0343,0347,034B,034F,**,**,**)),CUADD=44,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(EF00,064),CUNUMBR=(8844),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(EF40,064),CUNUMBR=(8844),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8845,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=45,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(EF80,064),UNITADD=00,CUNUMBR=(8845),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(EFC0,064),UNITADD=40,CUNUMBR=(8845),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8846,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034F,033E,0343,0347,**,**,**)),CUADD=46,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5000,022),CUNUMBR=(8846),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(5028,088),CUNUMBR=(8846),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8847,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034B,034F,033E,0343,**,**,**)),CUADD=47,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5080,022),UNITADD=00,CUNUMBR=(8847),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(50A8,088),UNITADD=28,CUNUMBR=(8847),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8848,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,033E,**,**,**)),CUADD=48,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5100,022),CUNUMBR=(8848),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(5128,088),CUNUMBR=(8848),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8849,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0343,0347,034B,034F,**,**,**)),CUADD=49,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5180,022),UNITADD=00,CUNUMBR=(8849),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(51A8,088),UNITADD=28,CUNUMBR=(8849),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=884A,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=4A,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5200,022),CUNUMBR=(884A),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(5228,088),CUNUMBR=(884A),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=884B,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034F,033E,0343,0347,**,**,**)),CUADD=4B,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5280,022),UNITADD=00,CUNUMBR=(884B),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(52A8,088),UNITADD=28,CUNUMBR=(884B),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=884C,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034B,034F,033E,0343,**,**,**)),CUADD=4C,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5300,022),CUNUMBR=(884C),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(5328,088),CUNUMBR=(884C),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=884D,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,033E,**,**,**)),CUADD=4D,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5380,022),UNITADD=00,CUNUMBR=(884D),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(53A8,088),UNITADD=28,CUNUMBR=(884D),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=884E,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0343,0347,034B,034F,**,**,**)),CUADD=4E,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5400,064),CUNUMBR=(884E),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(5440,064),CUNUMBR=(884E),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=884F,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0343,0347,034B,034F,**,**,**)),CUADD=4F,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5480,064),UNITADD=00,CUNUMBR=(884F),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(54C0,064),UNITADD=40,CUNUMBR=(884F),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8850,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=50,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5500,032),CUNUMBR=(8850),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(5520,096),CUNUMBR=(8850),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8851,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034F,033E,0343,0347,**,**,**)),CUADD=51,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5580,032),UNITADD=00,CUNUMBR=(8851),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(55A0,096),UNITADD=20,CUNUMBR=(8851),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8852,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034B,034F,033E,0343,**,**,**)),CUADD=52,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5600,032),CUNUMBR=(8852),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(5620,096),CUNUMBR=(8852),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8853,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,033E,**,**,**)),CUADD=53,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5680,032),UNITADD=00,CUNUMBR=(8853),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(56A0,096),UNITADD=20,CUNUMBR=(8853),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8854,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0343,0347,034B,034F,**,**,**)),CUADD=54,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5700,032),CUNUMBR=(8854),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(5720,096),CUNUMBR=(8854),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8855,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=55,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5780,032),UNITADD=00,CUNUMBR=(8855),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(57A0,096),UNITADD=20,CUNUMBR=(8855),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8856,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034F,033E,0343,0347,**,**,**)),CUADD=56,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5800,032),CUNUMBR=(8856),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(5820,096),CUNUMBR=(8856),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8857,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034B,034F,033E,0343,**,**,**)),CUADD=57,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5880,032),UNITADD=00,CUNUMBR=(8857),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(58A0,096),UNITADD=20,CUNUMBR=(8857),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8858,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,033E,**,**,**)),CUADD=58,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5900,032),CUNUMBR=(8858),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(5920,096),CUNUMBR=(8858),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8859,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0343,0347,034B,034F,**,**,**)),CUADD=59,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5980,032),UNITADD=00,CUNUMBR=(8859),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(59A0,096),UNITADD=20,CUNUMBR=(8859),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=885A,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=5A,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(D00,032),CUNUMBR=(885A),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(D20,096),CUNUMBR=(885A),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=885B,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034F,033E,0343,0347,**,**,**)),CUADD=5B,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(D80,032),UNITADD=00,CUNUMBR=(885B),STADET=Y,*
+               UNIT=3390B
+         IODEVICE ADDRESS=(DA0,096),UNITADD=20,CUNUMBR=(885B),STADET=Y,*
+               UNIT=3390A
+         CNTLUNIT CUNUMBR=885C,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),034B,034F,033E,0343,**,**,**)),CUADD=5C,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E00,032),CUNUMBR=(885C),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(E20,096),CUNUMBR=(885C),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=885D,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0347,034B,034F,033E,**,**,**)),CUADD=5D,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(E80,032),UNITADD=00,CUNUMBR=(885D),STADET=Y,*
+               UNIT=3390B
+         IODEVICE ADDRESS=(EA0,096),UNITADD=20,CUNUMBR=(885D),STADET=Y,*
+               UNIT=3390A
+         CNTLUNIT CUNUMBR=885E,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,128)),                                     *
+               LINK=((CSS(0),0343,0347,034B,034F,**,**,**)),CUADD=5E,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5E00,032),CUNUMBR=(885E),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(5E20,096),CUNUMBR=(885E),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=885F,PATH=((CSS(0),40,48,70,78,50,80,CC)),   *
+               UNITADD=((00,126)),                                     *
+               LINK=((CSS(0),033E,0343,0347,034B,**,**,**)),CUADD=5F,  *
+               UNIT=2107
+         IODEVICE ADDRESS=(5F00,032),CUNUMBR=(885F),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(5F30,078),CUNUMBR=(885F),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8870,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=70, *
+               UNIT=2107
+         IODEVICE ADDRESS=(700,064),CUNUMBR=(8870),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(740,064),CUNUMBR=(8870),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8871,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=71, *
+               UNIT=2107
+         IODEVICE ADDRESS=(780,064),UNITADD=00,CUNUMBR=(8871),STADET=Y,*
+               UNIT=3390B
+         IODEVICE ADDRESS=(7C0,064),UNITADD=40,CUNUMBR=(8871),STADET=Y,*
+               UNIT=3390A
+         CNTLUNIT CUNUMBR=8872,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=72, *
+               UNIT=2107
+         IODEVICE ADDRESS=(800,064),CUNUMBR=(8872),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(840,064),CUNUMBR=(8872),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8873,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=73, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7A00,064),CUNUMBR=(8873),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(7A40,064),CUNUMBR=(8873),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8874,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=74, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7B00,064),CUNUMBR=(8874),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(7B80,064),UNITADD=40,CUNUMBR=(8874),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8875,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=75, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7B40,064),UNITADD=00,CUNUMBR=(8875),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(7BC0,064),UNITADD=40,CUNUMBR=(8875),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8876,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=76, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C000,064),CUNUMBR=(8876),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C040,064),CUNUMBR=(8876),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8877,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=77, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C080,064),UNITADD=00,CUNUMBR=(8877),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C0C0,064),UNITADD=40,CUNUMBR=(8877),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8878,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=78, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C100,064),CUNUMBR=(8878),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C140,064),CUNUMBR=(8878),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8879,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=79, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C180,064),UNITADD=00,CUNUMBR=(8879),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C1C0,064),UNITADD=40,CUNUMBR=(8879),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=887A,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=7A, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C200,064),CUNUMBR=(887A),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C240,064),CUNUMBR=(887A),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=887B,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=7B, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C280,064),UNITADD=00,CUNUMBR=(887B),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C2C0,064),UNITADD=40,CUNUMBR=(887B),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=887C,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=7C, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C300,064),CUNUMBR=(887C),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C340,064),CUNUMBR=(887C),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=887D,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=7D, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C380,064),UNITADD=00,CUNUMBR=(887D),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C3C0,064),UNITADD=40,CUNUMBR=(887D),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=887E,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=7E, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C400,064),CUNUMBR=(887E),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C440,064),CUNUMBR=(887E),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=887F,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=7F, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C480,064),UNITADD=00,CUNUMBR=(887F),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C4C0,064),UNITADD=40,CUNUMBR=(887F),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8880,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=80, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C500,022),CUNUMBR=(8880),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C528,088),CUNUMBR=(8880),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8881,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=81, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C580,022),UNITADD=00,CUNUMBR=(8881),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C5A8,088),UNITADD=28,CUNUMBR=(8881),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8882,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=82, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C600,022),CUNUMBR=(8882),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C628,088),CUNUMBR=(8882),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8883,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=83, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C680,022),UNITADD=00,CUNUMBR=(8883),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C6A8,088),UNITADD=28,CUNUMBR=(8883),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8884,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=84, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C700,022),CUNUMBR=(8884),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C728,088),CUNUMBR=(8884),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8885,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=85, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C780,022),UNITADD=00,CUNUMBR=(8885),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C7A8,088),UNITADD=28,CUNUMBR=(8885),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8886,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=86, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C800,022),CUNUMBR=(8886),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C828,088),CUNUMBR=(8886),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8887,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=87, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C880,022),UNITADD=00,CUNUMBR=(8887),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C8A8,088),UNITADD=28,CUNUMBR=(8887),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8888,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=88, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C900,022),CUNUMBR=(8888),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C928,088),CUNUMBR=(8888),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8889,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=89, *
+               UNIT=2107
+         IODEVICE ADDRESS=(C980,022),UNITADD=00,CUNUMBR=(8889),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(C9A8,088),UNITADD=28,CUNUMBR=(8889),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=888A,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=8A, *
+               UNIT=2107
+         IODEVICE ADDRESS=(CA00,022),CUNUMBR=(888A),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(CA28,088),CUNUMBR=(888A),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=888B,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=8B, *
+               UNIT=2107
+         IODEVICE ADDRESS=(CA80,022),UNITADD=00,CUNUMBR=(888B),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(CAA8,088),UNITADD=28,CUNUMBR=(888B),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=888C,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=8C, *
+               UNIT=2107
+         IODEVICE ADDRESS=(CB00,022),CUNUMBR=(888C),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(CB28,088),CUNUMBR=(888C),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=888D,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=8D, *
+               UNIT=2107
+         IODEVICE ADDRESS=(CB80,022),UNITADD=00,CUNUMBR=(888D),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(CBA8,088),UNITADD=28,CUNUMBR=(888D),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=888E,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=8E, *
+               UNIT=2107
+         IODEVICE ADDRESS=(CC00,022),CUNUMBR=(888E),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(CC28,088),CUNUMBR=(888E),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=888F,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=8F, *
+               UNIT=2107
+         IODEVICE ADDRESS=(CC80,022),UNITADD=00,CUNUMBR=(888F),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(CCA8,088),UNITADD=28,CUNUMBR=(888F),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8890,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=90, *
+               UNIT=2107
+         IODEVICE ADDRESS=(CD00,022),CUNUMBR=(8890),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(CD28,088),CUNUMBR=(8890),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8891,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=91, *
+               UNIT=2107
+         IODEVICE ADDRESS=(CD80,022),UNITADD=00,CUNUMBR=(8891),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(CDA8,088),UNITADD=28,CUNUMBR=(8891),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8892,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=92, *
+               UNIT=2107
+         IODEVICE ADDRESS=(CE00,022),CUNUMBR=(8892),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(CE28,088),CUNUMBR=(8892),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8893,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=93, *
+               UNIT=2107
+         IODEVICE ADDRESS=(CE80,022),UNITADD=00,CUNUMBR=(8893),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(CEA8,088),UNITADD=28,CUNUMBR=(8893),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8894,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=94, *
+               UNIT=2107
+         IODEVICE ADDRESS=(CF00,022),CUNUMBR=(8894),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(CF28,088),CUNUMBR=(8894),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8895,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=95, *
+               UNIT=2107
+         IODEVICE ADDRESS=(CF80,022),UNITADD=00,CUNUMBR=(8895),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(CFA8,088),UNITADD=28,CUNUMBR=(8895),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8896,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=96, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4000,022),CUNUMBR=(8896),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(4028,088),CUNUMBR=(8896),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8897,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=97, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4080,022),UNITADD=00,CUNUMBR=(8897),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(40A8,088),UNITADD=28,CUNUMBR=(8897),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8898,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=98, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4100,022),CUNUMBR=(8898),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(4128,088),CUNUMBR=(8898),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=8899,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=99, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4180,022),UNITADD=00,CUNUMBR=(8899),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(41A8,088),UNITADD=28,CUNUMBR=(8899),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=889A,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=9A, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4200,022),CUNUMBR=(889A),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(4228,088),CUNUMBR=(889A),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=889B,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=9B, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4280,040),UNITADD=00,CUNUMBR=(889B),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(42B0,080),UNITADD=30,CUNUMBR=(889B),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=889C,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=9C, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4300,064),CUNUMBR=(889C),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(4340,064),CUNUMBR=(889C),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=889D,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=9D, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4380,064),UNITADD=00,CUNUMBR=(889D),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(43C0,064),UNITADD=40,CUNUMBR=(889D),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=889E,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=9E, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4400,064),CUNUMBR=(889E),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(4440,064),CUNUMBR=(889E),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=889F,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=9F, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4480,064),UNITADD=00,CUNUMBR=(889F),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(44C0,064),UNITADD=40,CUNUMBR=(889F),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88A0,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=A0, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4500,064),CUNUMBR=(88A0),STADET=Y,          *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(4540,064),CUNUMBR=(88A0),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88A1,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=A1, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4580,064),UNITADD=00,CUNUMBR=(88A1),        *
+               STADET=Y,                                               *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(45C0,064),UNITADD=40,CUNUMBR=(88A1),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88A2,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=A2, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4600,064),CUNUMBR=(88A2),STADET=Y,          *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(4640,064),CUNUMBR=(88A2),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88A3,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=A3, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4680,064),UNITADD=00,CUNUMBR=(88A3),        *
+               STADET=Y,                                               *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(46C0,064),UNITADD=40,CUNUMBR=(88A3),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88A4,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=A4, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4700,064),CUNUMBR=(88A4),STADET=Y,          *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(4740,064),CUNUMBR=(88A4),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88A5,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=A5, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4780,064),UNITADD=00,CUNUMBR=(88A5),        *
+               STADET=Y,                                               *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(47C0,064),UNITADD=40,CUNUMBR=(88A5),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88A6,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=A6, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4800,064),CUNUMBR=(88A6),STADET=Y,          *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(4840,064),CUNUMBR=(88A6),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88A7,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=A7, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4880,064),UNITADD=00,CUNUMBR=(88A7),        *
+               STADET=Y,                                               *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(48C0,064),UNITADD=40,CUNUMBR=(88A7),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88A8,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=A8, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4900,064),CUNUMBR=(88A8),STADET=Y,          *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(4940,064),CUNUMBR=(88A8),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88A9,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=A9, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4980,064),UNITADD=00,CUNUMBR=(88A9),        *
+               STADET=Y,                                               *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(49C0,064),UNITADD=40,CUNUMBR=(88A9),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88AA,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=AA, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4A00,022),CUNUMBR=(88AA),STADET=Y,          *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(4A28,088),CUNUMBR=(88AA),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88AB,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=AB, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4A80,022),UNITADD=00,CUNUMBR=(88AB),        *
+               STADET=Y,                                               *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(4AA8,088),UNITADD=28,CUNUMBR=(88AB),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88AC,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=AC, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4B00,022),CUNUMBR=(88AC),STADET=Y,          *
+               PARTITION=((CSS(0),EVABKLI,EVABKLC,EVABKLO,USER3)),     *
+               UNIT=3390B
+         IODEVICE ADDRESS=(4B28,088),CUNUMBR=(88AC),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88AD,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=AD, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4B80,022),UNITADD=00,CUNUMBR=(88AD),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(4BA8,088),UNITADD=28,CUNUMBR=(88AD),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88AE,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=AE, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4C00,022),CUNUMBR=(88AE),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(4C28,088),CUNUMBR=(88AE),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88AF,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=AF, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4C80,022),UNITADD=00,CUNUMBR=(88AF),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(4CA8,088),UNITADD=28,CUNUMBR=(88AF),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88B0,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=B0, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4D00,022),CUNUMBR=(88B0),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(4D28,088),CUNUMBR=(88B0),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88B1,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=B1, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4D80,022),UNITADD=00,CUNUMBR=(88B1),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(4DA8,088),UNITADD=28,CUNUMBR=(88B1),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88B2,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=B2, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4E00,022),CUNUMBR=(88B2),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(4E28,088),CUNUMBR=(88B2),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88B3,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=B3, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4E80,022),UNITADD=00,CUNUMBR=(88B3),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(4EA8,088),UNITADD=28,CUNUMBR=(88B3),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88B4,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=B4, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4F00,022),CUNUMBR=(88B4),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(4F28,088),CUNUMBR=(88B4),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88B5,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=B5, *
+               UNIT=2107
+         IODEVICE ADDRESS=(4F80,022),UNITADD=00,CUNUMBR=(88B5),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(4FA8,022),UNITADD=28,CUNUMBR=(88B5),        *
+               STADET=Y,UNIT=3390B
+         CNTLUNIT CUNUMBR=88B6,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=B6, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7000,022),CUNUMBR=(88B6),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(7028,088),CUNUMBR=(88B6),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88B7,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=B7, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7080,022),UNITADD=00,CUNUMBR=(88B7),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(70A8,088),UNITADD=28,CUNUMBR=(88B7),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88B8,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=B8, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7100,022),CUNUMBR=(88B8),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(7128,088),CUNUMBR=(88B8),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88B9,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=B9, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7180,022),UNITADD=00,CUNUMBR=(88B9),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(71A8,088),UNITADD=28,CUNUMBR=(88B9),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88BA,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=BA, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7200,022),CUNUMBR=(88BA),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(7228,088),CUNUMBR=(88BA),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88BB,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=BB, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7280,022),UNITADD=00,CUNUMBR=(88BB),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(72A8,088),UNITADD=28,CUNUMBR=(88BB),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88BC,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=BC, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7300,022),CUNUMBR=(88BC),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(7328,088),CUNUMBR=(88BC),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88BD,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=BD, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7380,022),UNITADD=00,CUNUMBR=(88BD),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(73A8,088),UNITADD=28,CUNUMBR=(88BD),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88BE,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=BE, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7400,022),CUNUMBR=(88BE),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(7428,088),CUNUMBR=(88BE),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88BF,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=BF, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7480,022),UNITADD=00,CUNUMBR=(88BF),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(74A8,088),UNITADD=28,CUNUMBR=(88BF),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88C0,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=C0, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7500,032),CUNUMBR=(88C0),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(7520,096),CUNUMBR=(88C0),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88C1,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=C1, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7580,032),UNITADD=00,CUNUMBR=(88C1),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(75A0,096),UNITADD=20,CUNUMBR=(88C1),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88C2,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=C2, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7600,032),CUNUMBR=(88C2),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(7620,096),CUNUMBR=(88C2),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88C3,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=C3, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7680,032),UNITADD=00,CUNUMBR=(88C3),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(76A0,096),UNITADD=20,CUNUMBR=(88C3),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88C4,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=C4, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7700,032),CUNUMBR=(88C4),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(7720,096),CUNUMBR=(88C4),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88C5,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=C5, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7780,032),UNITADD=00,CUNUMBR=(88C5),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(77A0,096),UNITADD=20,CUNUMBR=(88C5),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88C6,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=C6, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7800,032),CUNUMBR=(88C6),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(7820,096),CUNUMBR=(88C6),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88C7,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=C7, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7880,032),UNITADD=00,CUNUMBR=(88C7),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(78A0,096),UNITADD=20,CUNUMBR=(88C7),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88C8,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=C8, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7900,032),CUNUMBR=(88C8),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(7920,096),CUNUMBR=(88C8),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88C9,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=C9, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7980,032),UNITADD=00,CUNUMBR=(88C9),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(79A0,096),UNITADD=20,CUNUMBR=(88C9),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88CA,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=CA, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7C00,032),CUNUMBR=(88CA),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(7C20,096),CUNUMBR=(88CA),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88CB,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=CB, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7C80,032),UNITADD=00,CUNUMBR=(88CB),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(7CA0,096),UNITADD=20,CUNUMBR=(88CB),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88CC,PATH=((CSS(0),40,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0332,**,**)),CUADD=CC, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7D00,032),CUNUMBR=(88CC),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(7D20,096),CUNUMBR=(88CC),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88CD,PATH=((CSS(0),48,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0333,**,**)),CUADD=CD, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7D80,032),UNITADD=00,CUNUMBR=(88CD),        *
+               STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(7DA0,096),UNITADD=20,CUNUMBR=(88CD),        *
+               STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88CE,PATH=((CSS(0),70,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),033A,**,**)),CUADD=CE, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7E00,032),CUNUMBR=(88CE),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(7E20,096),CUNUMBR=(88CE),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=88CF,PATH=((CSS(0),78,4C,7C)),               *
+               UNITADD=((00,128)),LINK=((CSS(0),0342,**,**)),CUADD=CF, *
+               UNIT=2107
+         IODEVICE ADDRESS=(7F00,009),CUNUMBR=(88CF),STADET=Y,UNIT=3390B
+         IODEVICE ADDRESS=(7F38,072),CUNUMBR=(88CF),STADET=Y,UNIT=3390A
+         CNTLUNIT CUNUMBR=A000,PATH=((CSS(0),C4,D0,C9)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0353,0363,**)),CUADD=0,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A000,016),CUNUMBR=(A000),STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A010,PATH=((CSS(0),C4,D0,C9)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0353,0363,**)),CUADD=1,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A010,016),UNITADD=00,CUNUMBR=(A010),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A020,PATH=((CSS(0),C4,D0,C9)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0353,0363,**)),CUADD=2,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A020,016),UNITADD=00,CUNUMBR=(A020),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A030,PATH=((CSS(0),C4,D0,C9)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0353,0363,**)),CUADD=3,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A030,016),UNITADD=00,CUNUMBR=(A030),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A040,PATH=((CSS(0),C4,D0,C9)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0353,0363,**)),CUADD=4,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A040,016),UNITADD=00,CUNUMBR=(A040),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A050,PATH=((CSS(0),C4,D0,C9)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0353,0363,**)),CUADD=5,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A050,016),UNITADD=00,CUNUMBR=(A050),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A060,PATH=((CSS(0),C4,D0,C9)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0353,0363,**)),CUADD=6,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A060,016),UNITADD=00,CUNUMBR=(A060),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A070,PATH=((CSS(0),C4,D0,C9)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0353,0363,**)),CUADD=7,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A070,016),UNITADD=00,CUNUMBR=(A070),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A080,PATH=((CSS(0),C4,D0,C9)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0353,0363,**)),CUADD=8,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A080,016),UNITADD=00,CUNUMBR=(A080),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A090,PATH=((CSS(0),C4,D0,C9)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0353,0363,**)),CUADD=9,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A090,016),UNITADD=00,CUNUMBR=(A090),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A0A0,PATH=((CSS(0),C4,D0,C9)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0353,0363,**)),CUADD=A,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A0A0,016),UNITADD=00,CUNUMBR=(A0A0),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A0B0,PATH=((CSS(0),C4,D0,C9)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0353,0363,**)),CUADD=B,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A0B0,016),UNITADD=00,CUNUMBR=(A0B0),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A0C0,PATH=((CSS(0),C4,D0,C9)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0353,0363,**)),CUADD=C,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A0C0,016),UNITADD=00,CUNUMBR=(A0C0),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A0D0,PATH=((CSS(0),C4,D0,C9)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0353,0363,**)),CUADD=D,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A0D0,016),UNITADD=00,CUNUMBR=(A0D0),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A0E0,PATH=((CSS(0),C4,D0,C9)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0353,0363,**)),CUADD=E,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A0E0,016),UNITADD=00,CUNUMBR=(A0E0),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A0F0,PATH=((CSS(0),C4,D0,C9)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0353,0363,**)),CUADD=F,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A0F0,016),UNITADD=00,CUNUMBR=(A0F0),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A100,PATH=((CSS(0),C4,D0,CD)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0352,0362,**)),CUADD=0,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A100,016),CUNUMBR=(A100),STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A110,PATH=((CSS(0),C4,D0,CD)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0352,0362,**)),CUADD=1,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A110,016),UNITADD=00,CUNUMBR=(A110),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A120,PATH=((CSS(0),C4,D0,CD)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0352,0362,**)),CUADD=2,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A120,016),UNITADD=00,CUNUMBR=(A120),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A130,PATH=((CSS(0),C4,D0,CD)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0352,0362,**)),CUADD=3,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A130,016),UNITADD=00,CUNUMBR=(A130),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A140,PATH=((CSS(0),C4,D0,CD)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0352,0362,**)),CUADD=4,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A140,016),UNITADD=00,CUNUMBR=(A140),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A150,PATH=((CSS(0),C4,D0,CD)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0352,0362,**)),CUADD=5,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A150,016),UNITADD=00,CUNUMBR=(A150),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A160,PATH=((CSS(0),C4,D0,CD)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0352,0362,**)),CUADD=6,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A160,016),UNITADD=00,CUNUMBR=(A160),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A170,PATH=((CSS(0),C4,D0,CD)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0352,0362,**)),CUADD=7,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A170,016),UNITADD=00,CUNUMBR=(A170),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A180,PATH=((CSS(0),C4,D0,CD)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0352,0362,**)),CUADD=8,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A180,016),UNITADD=00,CUNUMBR=(A180),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A190,PATH=((CSS(0),C4,D0,CD)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0352,0362,**)),CUADD=9,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A190,016),UNITADD=00,CUNUMBR=(A190),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A1A0,PATH=((CSS(0),C4,D0,CD)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0352,0362,**)),CUADD=A,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A1A0,016),UNITADD=00,CUNUMBR=(A1A0),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A1B0,PATH=((CSS(0),C4,D0,CD)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0352,0362,**)),CUADD=B,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A1B0,016),UNITADD=00,CUNUMBR=(A1B0),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A1C0,PATH=((CSS(0),C4,D0,CD)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0352,0362,**)),CUADD=C,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A1C0,016),UNITADD=00,CUNUMBR=(A1C0),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A1D0,PATH=((CSS(0),C4,D0,CD)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0352,0362,**)),CUADD=D,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A1D0,016),UNITADD=00,CUNUMBR=(A1D0),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A1E0,PATH=((CSS(0),C4,D0,CD)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0352,0362,**)),CUADD=E,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A1E0,016),UNITADD=00,CUNUMBR=(A1E0),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=A1F0,PATH=((CSS(0),C4,D0,CD)),               *
+               UNITADD=((00,016)),LINK=((CSS(0),0352,0362,**)),CUADD=F,*
+               UNIT=3490
+         IODEVICE ADDRESS=(A1F0,016),UNITADD=00,CUNUMBR=(A1F0),        *
+               STADET=Y,UNIT=3490
+         CNTLUNIT CUNUMBR=F001,PATH=((CSS(0),00,05,07)),               *
+               UNITADD=((00,210)),CUADD=0,UNIT=2105
+         IODEVICE ADDRESS=(F000,146),CUNUMBR=(F001),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),UNIT=3390B
+         IODEVICE ADDRESS=(F092,064),CUNUMBR=(F001),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),SCHSET=1, *
+               UNIT=3390A
+         CNTLUNIT CUNUMBR=F002,PATH=((CSS(0),00,05,07)),               *
+               UNITADD=((00,178)),CUADD=1,UNIT=2105
+         IODEVICE ADDRESS=(F100,146),CUNUMBR=(F002),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),UNIT=3390B
+         IODEVICE ADDRESS=(F192,032),CUNUMBR=(F002),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),SCHSET=1, *
+               UNIT=3390A
+         CNTLUNIT CUNUMBR=F003,PATH=((CSS(0),00,05,07)),               *
+               UNITADD=((00,178)),CUADD=2,UNIT=2105
+         IODEVICE ADDRESS=(F200,146),CUNUMBR=(F003),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),UNIT=3390B
+         IODEVICE ADDRESS=(F292,032),CUNUMBR=(F003),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),SCHSET=1, *
+               UNIT=3390A
+         CNTLUNIT CUNUMBR=F004,PATH=((CSS(0),00,05,07)),               *
+               UNITADD=((00,194)),CUADD=3,UNIT=2105
+         IODEVICE ADDRESS=(F300,146),CUNUMBR=(F004),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),UNIT=3390B
+         IODEVICE ADDRESS=(F392,048),CUNUMBR=(F004),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),SCHSET=1, *
+               UNIT=3390A
+         CNTLUNIT CUNUMBR=F005,PATH=((CSS(0),00,05,07)),               *
+               UNITADD=((00,105)),CUADD=4,UNIT=2105
+         IODEVICE ADDRESS=(F400,073),CUNUMBR=(F005),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),UNIT=3390B
+         IODEVICE ADDRESS=(F449,032),CUNUMBR=(F005),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),SCHSET=1, *
+               UNIT=3390A
+         CNTLUNIT CUNUMBR=F006,PATH=((CSS(0),00,05,07)),               *
+               UNITADD=((00,105)),CUADD=5,UNIT=2105
+         IODEVICE ADDRESS=(F500,073),CUNUMBR=(F006),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),UNIT=3390B
+         IODEVICE ADDRESS=(F549,032),CUNUMBR=(F006),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),SCHSET=1, *
+               UNIT=3390A
+         CNTLUNIT CUNUMBR=F007,PATH=((CSS(0),09,0D,0E)),               *
+               UNITADD=((00,178)),CUADD=6,UNIT=2105
+         IODEVICE ADDRESS=(F600,146),CUNUMBR=(F007),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),UNIT=3390B
+         IODEVICE ADDRESS=(F692,032),CUNUMBR=(F007),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),SCHSET=1, *
+               UNIT=3390A
+         CNTLUNIT CUNUMBR=F008,PATH=((CSS(0),09,0D,0E)),               *
+               UNITADD=((00,082)),CUADD=7,UNIT=2105
+         IODEVICE ADDRESS=(F700,050),CUNUMBR=(F008),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),UNIT=3390B
+         IODEVICE ADDRESS=(F732,032),CUNUMBR=(F008),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),SCHSET=1, *
+               UNIT=3390A
+         CNTLUNIT CUNUMBR=F009,PATH=((CSS(0),09,0D,0E)),               *
+               UNITADD=((00,178)),CUADD=8,UNIT=2105
+         IODEVICE ADDRESS=(F800,146),CUNUMBR=(F009),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),UNIT=3390B
+         IODEVICE ADDRESS=(F892,032),CUNUMBR=(F009),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),SCHSET=1, *
+               UNIT=3390A
+         CNTLUNIT CUNUMBR=F00A,PATH=((CSS(0),09,0D,0E)),               *
+               UNITADD=((00,178)),CUADD=9,UNIT=2105
+         IODEVICE ADDRESS=(F900,146),CUNUMBR=(F00A),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),UNIT=3390B
+         IODEVICE ADDRESS=(F992,032),CUNUMBR=(F00A),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),SCHSET=1, *
+               UNIT=3390A
+         CNTLUNIT CUNUMBR=F00B,PATH=((CSS(0),09,0D,0E)),               *
+               UNITADD=((00,194)),CUADD=A,UNIT=2105
+         IODEVICE ADDRESS=(FA00,146),CUNUMBR=(F00B),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),UNIT=3390B
+         IODEVICE ADDRESS=(FA92,048),CUNUMBR=(F00B),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),SCHSET=1, *
+               UNIT=3390A
+         CNTLUNIT CUNUMBR=F00C,PATH=((CSS(0),09,0D,0E)),               *
+               UNITADD=((00,194)),CUADD=B,UNIT=2105
+         IODEVICE ADDRESS=(FB00,146),CUNUMBR=(F00C),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),UNIT=3390B
+         IODEVICE ADDRESS=(FB92,048),CUNUMBR=(F00C),STADET=Y,          *
+               PARTITION=((CSS(0),ZVMG7,PFM1,USER3,ZVMCSDL)),SCHSET=1, *
+               UNIT=3390A
+
